@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fefefe;
+}
+
+.mulherBebendoAgua {
+  height: 80%;
+  width: 35%;
+  position: relative;
+  z-index: 3;
+  left: 6%;
+}
+
+.background {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background img {
+  border-radius: 3rem 0 0 0;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.secaoForms {
+  width: clamp(1rem, 90%, 35%);
+
+
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secaoForms h2 {
+  margin-bottom: 1rem;
+  font-size: clamp(1rem, 2vw, 2rem);
+}
+
+#CreateFreeAccount { 
+  font-size: 2.6rem;
+  font-weight: bold;
+
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
+}
+
+.secaoForms form {
+  width: clamp(28rem, 80%, 100%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.secaoForms label{
+  font-size: clamp(1rem, 1.5vw, 2rem);
+  margin-bottom: 1rem;
+  
+}
+
+.secaoForms input {
+  margin-bottom: 1rem;
+  height: 3.5rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: #b0bac363;
+  text-indent: 1.5rem;
+}
+
+
+#Password {
+  margin-bottom: 2rem;
+}
+
+.termos {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#term {
+  width: initial;
+  height: initial;
+  margin-bottom: 0;
+}
+
+#termsOfUse {
+  font-size: 1rem;
+  line-height: 1;
+
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section .haveAccount {
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
+  font-weight: 300;
+  margin-top: 1.6rem;
+  margin-bottom: 0;
+}
+
+section .or {
+  font-size: clamp(1rem, 1.7vw, 2.3rem);
+
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.createAccount {
+  background-color: #00dfc2;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: clamp(11.5rem, 15vw, 13rem);
+    font-size: clamp(1rem, 1.4vw, 1.4rem);
+    font-weight: 500;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.loginGoogle {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.9rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  height: 4rem;
+  background-color: #f0efed;
+  width: clamp(13rem, 20vw, 16rem);
+  font-size: clamp(1rem, 1.5vw, 1.3rem);
+  cursor: pointer;
+}
+
+.loginGoogle svg{
+  width: clamp(3rem, 3vw, 4rem);
+}
