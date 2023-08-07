@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+  main {
+    justify-content: center;
+  }
+
+  .background img{
+    display: none;
+  }
+
+
+
+  .mulherBebendoAgua {
+    display: none;
+  }
+
+  .secaoForms {
+    width: clamp(22rem, 55%, 100%);
+
+  }
+
+  .secaoForms::before {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    content: "";
+
+    width: clamp(10rem, 20vw, 14.9rem);
+    /*  heigth: clamp(22rem, 55%, 100%); */
+
+   
+    height: 170px;
+    background-image: url(../assets/image4.png);
+}
+
+
+  }
+
+
